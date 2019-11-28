@@ -18,12 +18,22 @@ const DEFAULT_LANGUAGE = 'javascript';
  * @param  comments nested comment
  * @param {Object} args currently none accepted
  * @param {boolean} [args.markdownToc=true] whether to include a table of contents
+ * @param {string} [args.markdownTheme=""] whether to use a markdown theme
  * in markdown output.
  * @param {Object} [args.hljs={}] config to be passed to highlightjs for code highlighting:
  * consult hljs.configure for the full list.
  * @returns {Promise<Object>} returns an eventual Markdown value
  */
 function markdownAST(comments, args) {
+  if (args && args.markdownTheme) {
+    return mergeConfig(args).then(config =>
+      require('./markdown-theme/' + args.markdownTheme)(comments, config, {
+        LinkerStack,
+        rerouteLinks,
+        _formatType
+      })
+    );
+  }
   return mergeConfig(args).then(config => buildMarkdownAST(comments, config));
 }
 

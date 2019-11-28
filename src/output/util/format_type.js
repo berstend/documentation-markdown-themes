@@ -190,7 +190,7 @@ function formatType(getHref, node) {
       return [u('inlineCode', String(node.value))];
 
     default:
-      throw new Error('Unknown type ' + node.type);
+      throw new Error('Unknown type ' + JSON.stringify(node.type));
   }
 }
 

@@ -15,6 +15,7 @@ type DocumentationConfig = {
   noReferenceLinks?: boolean,
   markdownToc?: boolean,
   markdownTocMaxDepth?: number,
+  markdownTheme?: string,
   documentExported?: boolean,
   resolve?: string,
   hljs?: Object

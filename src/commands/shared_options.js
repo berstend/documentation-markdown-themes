@@ -130,6 +130,11 @@ module.exports.sharedOutputOptions = {
     default: true,
     type: 'boolean'
   },
+  'markdown-theme': {
+    describe: 'use an optional markdown theme',
+    default: '',
+    type: 'string'
+  },
   'markdown-toc-max-depth': {
     describe:
       'specifies the max depth of the table of contents in markdown output',
