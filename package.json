@@ -1,7 +1,7 @@
 {
   "name": "documentation-markdown-themes",
   "description": "a documentation generator with markdown theme support",
-  "version": "12.1.4",
+  "version": "12.1.5",
   "author": "Tom MacWright",
   "homepage": "https://documentation.js.org",
   "bin": {
