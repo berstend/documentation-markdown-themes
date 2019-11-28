@@ -11,8 +11,8 @@ const isClass = comment => comment && comment.kind && comment.kind === 'class';
 const isMember = comment =>
   comment && comment.kind && comment.kind === 'member';
 
-const isFunction = comment =>
-  comment && comment.kind && comment.kind === 'function';
+// const isFunction = comment =>
+//   comment && comment.kind && comment.kind === 'function';
 
 const hasParams = comment =>
   comment && comment.params && Array.isArray(comment.params);
@@ -321,32 +321,32 @@ module.exports = function buildMarkdownAST(comments, config, util) {
       );
     }
 
-    function githubLink(comment) {
-      return (
-        comment.context &&
-        comment.context.github &&
-        u('paragraph', [
-          u('text', 'Source: '),
-          u(
-            'link',
-            {
-              title: 'Source code on GitHub',
-              url: comment.context.github.url
-            },
-            [
-              u(
-                'text',
-                comment.context.github.path +
-                  ':' +
-                  comment.context.loc.start.line +
-                  '-' +
-                  comment.context.loc.end.line
-              )
-            ]
-          )
-        ])
-      );
-    }
+    // function githubLink(comment) {
+    //   return (
+    //     comment.context &&
+    //     comment.context.github &&
+    //     u('paragraph', [
+    //       u('text', 'Source: '),
+    //       u(
+    //         'link',
+    //         {
+    //           title: 'Source code on GitHub',
+    //           url: comment.context.github.url
+    //         },
+    //         [
+    //           u(
+    //             'text',
+    //             comment.context.github.path +
+    //               ':' +
+    //               comment.context.loc.start.line +
+    //               '-' +
+    //               comment.context.loc.end.line
+    //           )
+    //         ]
+    //       )
+    //     ])
+    //   );
+    // }
 
     function metaSection(comment) {
       const meta = [
