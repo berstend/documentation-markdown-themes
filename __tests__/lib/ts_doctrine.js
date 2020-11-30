@@ -392,6 +392,8 @@ test('tsDoctrine', function() {
   });
 
   expect(types).toEqual([
+    'TSBigIntKeyword',
+    'TSIntrinsicKeyword',
     'TSTypePredicate',
     'TSTypeQuery',
     'TSOptionalType', // handled - not top-level.
@@ -402,6 +404,7 @@ test('tsDoctrine', function() {
     'TSTypeOperator',
     'TSIndexedAccessType',
     'TSMappedType',
-    'TSExpressionWithTypeArguments'
+    'TSExpressionWithTypeArguments',
+    'TSImportType'
   ]);
 });

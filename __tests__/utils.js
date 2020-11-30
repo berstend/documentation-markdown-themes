@@ -1,5 +1,5 @@
 const http = require('http');
-import { walk } from '../src/walk';
+const { walk } = require('../src/walk');
 const concat = require('concat-stream');
 
 function get(url, callback) {

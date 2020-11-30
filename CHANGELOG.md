@@ -1,6 +1,63 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [13.1.0](https://github.com/documentationjs/documentation/compare/v13.0.2...v13.1.0) (2020-10-24)
+
+
+### Features
+
+* Add event members to md output ([#1336](https://github.com/documentationjs/documentation/issues/1336)) ([bc3233f](https://github.com/documentationjs/documentation/commit/bc3233fe7e414e65756cf50450ebad069e37506a))
+
+### [13.0.2](https://github.com/documentationjs/documentation/compare/v13.0.1...v13.0.2) (2020-07-02)
+
+
+### Bug Fixes
+
+* Additional safety around detecting functions in HTML output ([a8b6ce1](https://github.com/documentationjs/documentation/commit/a8b6ce144ea380ad21ba99f03574f6258be10666))
+
+### [13.0.1](https://github.com/documentationjs/documentation/compare/v13.0.0...v13.0.1) (2020-06-04)
+
+
+### Bug Fixes
+
+* 🐛 Error with flow opaque type and readme command ([78db9a4](https://github.com/documentationjs/documentation/commit/78db9a443a65bbe8ff202083351655e0cfa60004)), closes [#1322](https://github.com/documentationjs/documentation/issues/1322)
+* 🐛 Fixes an issue when using object spread and $Exact ([106945c](https://github.com/documentationjs/documentation/commit/106945c6354f0b70335adf737c7b7fa296952cc3)), closes [#1324](https://github.com/documentationjs/documentation/issues/1324)
+
+<a name="13.0.0"></a>
+# [13.0.0](https://github.com/documentationjs/documentation/compare/v12.3.0...v13.0.0) (2020-05-09)
+
+
+### Chores
+
+* Update Node minimum version to 10 ([45a5257](https://github.com/documentationjs/documentation/commit/45a5257))
+
+
+### BREAKING CHANGES
+
+* documentation.js will now require node 10 or later.
+
+
+
+<a name="12.3.0"></a>
+# [12.3.0](https://github.com/documentationjs/documentation/compare/v12.2.0...v12.3.0) (2020-04-07)
+
+
+### Features
+
+* upgrade babel dependencies ([d0ec029](https://github.com/documentationjs/documentation/commit/d0ec029))
+
+
+
+<a name="12.2.0"></a>
+# [12.2.0](https://github.com/documentationjs/documentation/compare/v12.1.4...v12.2.0) (2020-03-31)
+
+
+### Features
+
+* support for the [@see](https://github.com/see) tag in Markdown & HTML ([48bb7a2](https://github.com/documentationjs/documentation/commit/48bb7a2))
+
+
 
 <a name="12.1.4"></a>
 ## [12.1.4](https://github.com/documentationjs/documentation/compare/v12.1.3...v12.1.4) (2019-11-15)

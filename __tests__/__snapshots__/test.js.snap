@@ -10,6 +10,8 @@ Array [
           "column": 1,
           "line": 18,
         },
+        "filename": undefined,
+        "identifierName": undefined,
         "start": Position {
           "column": 0,
           "line": 6,
@@ -80,6 +82,8 @@ Array [
         "column": 3,
         "line": 5,
       },
+      "filename": undefined,
+      "identifierName": undefined,
       "start": Position {
         "column": 0,
         "line": 2,
@@ -187,6 +191,8 @@ Array [
           "column": 5,
           "line": 16,
         },
+        "filename": undefined,
+        "identifierName": undefined,
         "start": Position {
           "column": 4,
           "line": 13,
@@ -258,6 +264,8 @@ Array [
         "column": 7,
         "line": 12,
       },
+      "filename": undefined,
+      "identifierName": undefined,
       "start": Position {
         "column": 4,
         "line": 10,
@@ -303,6 +311,8 @@ Array [
           "column": 1,
           "line": 20,
         },
+        "filename": undefined,
+        "identifierName": undefined,
         "start": Position {
           "column": 0,
           "line": 7,
@@ -369,6 +379,8 @@ Array [
         "column": 3,
         "line": 6,
       },
+      "filename": undefined,
+      "identifierName": undefined,
       "start": Position {
         "column": 0,
         "line": 3,
@@ -476,6 +488,8 @@ Array [
           "column": 1,
           "line": 19,
         },
+        "filename": undefined,
+        "identifierName": undefined,
         "start": Position {
           "column": 0,
           "line": 10,
@@ -547,6 +561,8 @@ Array [
         "column": 12,
         "line": 9,
       },
+      "filename": undefined,
+      "identifierName": undefined,
       "start": Position {
         "column": 0,
         "line": 9,
@@ -567,6 +583,8 @@ Array [
                 "column": 3,
                 "line": 18,
               },
+              "filename": undefined,
+              "identifierName": undefined,
               "start": Position {
                 "column": 2,
                 "line": 15,
@@ -633,6 +651,8 @@ Array [
               "column": 5,
               "line": 14,
             },
+            "filename": undefined,
+            "identifierName": undefined,
             "start": Position {
               "column": 2,
               "line": 12,
@@ -806,6 +826,8 @@ Array [
           "column": 1,
           "line": 10,
         },
+        "filename": undefined,
+        "identifierName": undefined,
         "start": Position {
           "column": 0,
           "line": 8,
@@ -907,6 +929,8 @@ Array [
         "column": 3,
         "line": 7,
       },
+      "filename": undefined,
+      "identifierName": undefined,
       "start": Position {
         "column": 0,
         "line": 5,
@@ -944,6 +968,8 @@ Array [
           "column": 2,
           "line": 10,
         },
+        "filename": undefined,
+        "identifierName": undefined,
         "start": Position {
           "column": 0,
           "line": 7,
@@ -1011,6 +1037,8 @@ Array [
         "column": 3,
         "line": 6,
       },
+      "filename": undefined,
+      "identifierName": undefined,
       "start": Position {
         "column": 0,
         "line": 3,
@@ -1118,6 +1146,8 @@ Array [
           "column": 2,
           "line": 8,
         },
+        "filename": undefined,
+        "identifierName": undefined,
         "start": Position {
           "column": 0,
           "line": 5,
@@ -1185,6 +1215,8 @@ Array [
         "column": 3,
         "line": 4,
       },
+      "filename": undefined,
+      "identifierName": undefined,
       "start": Position {
         "column": 0,
         "line": 1,
@@ -1301,6 +1333,8 @@ Array [
           "column": 2,
           "line": 8,
         },
+        "filename": undefined,
+        "identifierName": undefined,
         "start": Position {
           "column": 0,
           "line": 5,
@@ -1368,6 +1402,8 @@ Array [
         "column": 3,
         "line": 4,
       },
+      "filename": undefined,
+      "identifierName": undefined,
       "start": Position {
         "column": 0,
         "line": 1,
@@ -1549,6 +1585,9 @@ exports[`html nested.input.js 1`] = `
             placeholder='Filter'
             id='filter-input'
             class='col12 block input'
+            spellcheck='false'
+            autocapitalize='off'
+            autocorrect='off'
             type='text' />
           <div id='toc'>
             <ul class='list-reset h5 py1-ul'>
@@ -1661,9 +1700,9 @@ exports[`html nested.input.js 1`] = `
               
                 
                 <li><a
-                  href='#bar'
+                  href='#bar2'
                   class=\\"\\">
-                  bar
+                  bar2
                   
                 </a>
                 
@@ -1671,9 +1710,9 @@ exports[`html nested.input.js 1`] = `
               
                 
                 <li><a
-                  href='#bar'
+                  href='#bar3'
                   class=\\"\\">
-                  bar
+                  bar3
                   
                 </a>
                 
@@ -1802,6 +1841,8 @@ exports[`html nested.input.js 1`] = `
   
 
   
+
+  
     <div class='py1 quiet mt1 prose-big'>Static Members</div>
     <div class=\\"clearfix\\">
   
@@ -1878,6 +1919,8 @@ This is a [link to something that does not exist]<a href=\\"DoesNot\\">DoesNot</
   
 
   
+
+  
 </section>
 
       </div>
@@ -1934,6 +1977,8 @@ the referenced class type</p>
 
       
     
+  
+
   
 
   
@@ -2025,6 +2070,8 @@ the referenced class type</p>
   
 
   
+
+  
 </section>
 
       </div>
@@ -2086,6 +2133,8 @@ the referenced class type</p>
   
 
   
+
+  
     <div class='py1 quiet mt1 prose-big'>Example</div>
     
       
@@ -2129,6 +2178,8 @@ k.isArrayOfBuffers();</pre>
   
   
   
+  
+
   
 
   
@@ -2198,6 +2249,8 @@ k.isArrayOfBuffers();</pre>
 
       
     
+  
+
   
 
   
@@ -2318,6 +2371,8 @@ k.isArrayOfBuffers();</pre>
   
 
   
+
+  
 </section>
 
       </div>
@@ -2420,6 +2475,8 @@ k.isArrayOfBuffers();</pre>
   
 
   
+
+  
 </section>
 
       </div>
@@ -2458,6 +2515,8 @@ k.isArrayOfBuffers();</pre>
   
   
   
+  
+
   
 
   
@@ -2559,6 +2618,8 @@ k.isArrayOfBuffers();</pre>
   
 
   
+
+  
 </section>
 
           
@@ -2617,6 +2678,8 @@ like a <a href=\\"#klass\\">klass</a></p>
   
 
   
+
+  
 </section>
 
           
@@ -2627,8 +2690,8 @@ like a <a href=\\"#klass\\">klass</a></p>
   
   <div class='clearfix'>
     
-    <h3 class='fl m0' id='bar'>
-      bar
+    <h3 class='fl m0' id='bar2'>
+      bar2
     </h3>
     
     
@@ -2637,7 +2700,7 @@ like a <a href=\\"#klass\\">klass</a></p>
 
   <p>Rest property function</p>
 
-    <div class='pre p1 fill-light mt0'>bar(toys: ...<a href=\\"https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number\\">Number</a>): <a href=\\"https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/undefined\\">undefined</a></div>
+    <div class='pre p1 fill-light mt0'>bar2(toys: ...<a href=\\"https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number\\">Number</a>): <a href=\\"https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/undefined\\">undefined</a></div>
   
   
 
@@ -2686,6 +2749,8 @@ like a <a href=\\"#klass\\">klass</a></p>
   
 
   
+
+  
 </section>
 
           
@@ -2696,8 +2761,8 @@ like a <a href=\\"#klass\\">klass</a></p>
   
   <div class='clearfix'>
     
-    <h3 class='fl m0' id='bar'>
-      bar
+    <h3 class='fl m0' id='bar3'>
+      bar3
     </h3>
     
     
@@ -2708,7 +2773,7 @@ like a <a href=\\"#klass\\">klass</a></p>
 a <a href=\\"#klass\\">klass instance multiword</a>,
 like a <a href=\\"#klass\\">klass</a>. This needs a <a href=\\"https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number\\">number</a> input.</p>
 
-    <div class='pre p1 fill-light mt0'>bar(): <a href=\\"https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/undefined\\">undefined</a></div>
+    <div class='pre p1 fill-light mt0'>bar3(): <a href=\\"https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/undefined\\">undefined</a></div>
   
   
 
@@ -2731,6 +2796,8 @@ like a <a href=\\"#klass\\">klass</a>. This needs a <a href=\\"https://developer
 
       
     
+  
+
   
 
   
@@ -2788,6 +2855,8 @@ like a <a href=\\"#klass\\">klass</a>. This needs a <a href=\\"https://developer
   
 
   
+
+  
     <div class='py1 quiet mt1 prose-big'>Instance Members</div>
     <div class=\\"clearfix\\">
   
@@ -2814,6 +2883,8 @@ like a <a href=\\"#klass\\">klass</a>. This needs a <a href=\\"https://developer
   
   
   
+  
+
   
 
   
@@ -2887,6 +2958,8 @@ like a <a href=\\"#klass\\">klass</a>. This needs a <a href=\\"https://developer
   
 
   
+
+  
     <div class='py1 quiet mt1 prose-big'>Static Members</div>
     <div class=\\"clearfix\\">
   
@@ -2913,6 +2986,8 @@ like a <a href=\\"#klass\\">klass</a>. This needs a <a href=\\"https://developer
   
   
   
+  
+
   
 
   
@@ -2970,6 +3045,8 @@ Array [
           "column": 1,
           "line": 13,
         },
+        "filename": undefined,
+        "identifierName": undefined,
         "start": Position {
           "column": 0,
           "line": 10,
@@ -3042,6 +3119,8 @@ Array [
         "column": 3,
         "line": 9,
       },
+      "filename": undefined,
+      "identifierName": undefined,
       "start": Position {
         "column": 0,
         "line": 1,
@@ -3227,6 +3306,8 @@ Array [
           "column": 2,
           "line": 8,
         },
+        "filename": undefined,
+        "identifierName": undefined,
         "start": Position {
           "column": 0,
           "line": 5,
@@ -3294,6 +3375,8 @@ Array [
         "column": 3,
         "line": 4,
       },
+      "filename": undefined,
+      "identifierName": undefined,
       "start": Position {
         "column": 0,
         "line": 1,
@@ -5170,6 +5253,65 @@ Array [
     "context": Object {
       "loc": Object {
         "end": Object {
+          "column": 28,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 1,
+        },
+      },
+    },
+    "description": "",
+    "errors": Array [],
+    "examples": Array [],
+    "implements": Array [],
+    "kind": "function",
+    "loc": Object {
+      "end": Object {
+        "column": 28,
+        "line": 1,
+      },
+      "start": Object {
+        "column": 0,
+        "line": 1,
+      },
+    },
+    "members": Object {
+      "events": Array [],
+      "global": Array [],
+      "inner": Array [],
+      "instance": Array [],
+      "static": Array [],
+    },
+    "name": "x",
+    "namespace": "x",
+    "params": Array [
+      Object {
+        "lineNumber": 1,
+        "name": "yparam",
+        "title": "param",
+      },
+    ],
+    "path": Array [
+      Object {
+        "kind": "function",
+        "name": "x",
+      },
+    ],
+    "properties": Array [],
+    "returns": Array [],
+    "sees": Array [],
+    "tags": Array [],
+    "throws": Array [],
+    "todos": Array [],
+    "yields": Array [],
+  },
+  Object {
+    "augments": Array [],
+    "context": Object {
+      "loc": Object {
+        "end": Object {
           "column": 1,
           "line": 3,
         },
@@ -5269,65 +5411,6 @@ Array [
       Object {
         "kind": "class",
         "name": "z",
-      },
-    ],
-    "properties": Array [],
-    "returns": Array [],
-    "sees": Array [],
-    "tags": Array [],
-    "throws": Array [],
-    "todos": Array [],
-    "yields": Array [],
-  },
-  Object {
-    "augments": Array [],
-    "context": Object {
-      "loc": Object {
-        "end": Object {
-          "column": 28,
-          "line": 1,
-        },
-        "start": Object {
-          "column": 0,
-          "line": 1,
-        },
-      },
-    },
-    "description": "",
-    "errors": Array [],
-    "examples": Array [],
-    "implements": Array [],
-    "kind": "function",
-    "loc": Object {
-      "end": Object {
-        "column": 28,
-        "line": 1,
-      },
-      "start": Object {
-        "column": 0,
-        "line": 1,
-      },
-    },
-    "members": Object {
-      "events": Array [],
-      "global": Array [],
-      "inner": Array [],
-      "instance": Array [],
-      "static": Array [],
-    },
-    "name": "x",
-    "namespace": "x",
-    "params": Array [
-      Object {
-        "lineNumber": 1,
-        "name": "yparam",
-        "title": "param",
-      },
-    ],
-    "path": Array [
-      Object {
-        "kind": "function",
-        "name": "x",
       },
     ],
     "properties": Array [],
@@ -7039,10 +7122,10 @@ exports[`outputs document-exported.input.js markdown 1`] = `
 
 ### Table of Contents
 
--   [z][1]
-    -   [zMethod][2]
--   [x][3]
-    -   [Parameters][4]
+-   [x][1]
+    -   [Parameters][2]
+-   [z][3]
+    -   [zMethod][4]
 -   [Class][5]
     -   [Parameters][6]
     -   [classMethod][7]
@@ -7078,15 +7161,15 @@ exports[`outputs document-exported.input.js markdown 1`] = `
 -   [o2][37]
     -   [om2][38]
 
-## z
-
-### zMethod
-
 ## x
 
 ### Parameters
 
 -   \`yparam\`  
+
+## z
+
+### zMethod
 
 ## Class
 
@@ -7184,13 +7267,13 @@ f5 comment
 
 ### om2
 
-[1]: #z
+[1]: #x
 
-[2]: #zmethod
+[2]: #parameters
 
-[3]: #x
+[3]: #z
 
-[4]: #parameters
+[4]: #zmethod
 
 [5]: #class
 
@@ -7279,26 +7362,6 @@ Object {
       "children": Array [
         Object {
           "type": "text",
-          "value": "z",
-        },
-      ],
-      "depth": 2,
-      "type": "heading",
-    },
-    Object {
-      "children": Array [
-        Object {
-          "type": "text",
-          "value": "zMethod",
-        },
-      ],
-      "depth": 3,
-      "type": "heading",
-    },
-    Object {
-      "children": Array [
-        Object {
-          "type": "text",
           "value": "x",
         },
       ],
@@ -7342,6 +7405,26 @@ Object {
       ],
       "ordered": false,
       "type": "list",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "type": "text",
+          "value": "z",
+        },
+      ],
+      "depth": 2,
+      "type": "heading",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "type": "text",
+          "value": "zMethod",
+        },
+      ],
+      "depth": 3,
+      "type": "heading",
     },
     Object {
       "children": Array [
@@ -8529,7 +8612,7 @@ have any parameter descriptions.",
     "context": Object {
       "loc": Object {
         "end": Object {
-          "column": 36,
+          "column": 37,
           "line": 16,
         },
         "start": Object {
@@ -8593,7 +8676,7 @@ have any parameter descriptions.",
     "errors": Array [],
     "examples": Array [
       Object {
-        "description": "destructure([0, 1, 2, 3])",
+        "description": "destructure2([0, 1, 2, 3])",
       },
     ],
     "implements": Array [],
@@ -8615,8 +8698,8 @@ have any parameter descriptions.",
       "instance": Array [],
       "static": Array [],
     },
-    "name": "destructure",
-    "namespace": "destructure",
+    "name": "destructure2",
+    "namespace": "destructure2",
     "params": Array [
       Object {
         "anonymous": true,
@@ -8652,7 +8735,7 @@ have any parameter descriptions.",
     "path": Array [
       Object {
         "kind": "function",
-        "name": "destructure",
+        "name": "destructure2",
       },
     ],
     "properties": Array [],
@@ -8660,7 +8743,7 @@ have any parameter descriptions.",
     "sees": Array [],
     "tags": Array [
       Object {
-        "description": "destructure([0, 1, 2, 3])",
+        "description": "destructure2([0, 1, 2, 3])",
         "lineNumber": 2,
         "title": "example",
       },
@@ -11580,7 +11663,7 @@ exports[`outputs es6.input.js markdown 1`] = `
 
 -   [destructure][1]
     -   [Parameters][2]
--   [destructure][3]
+-   [destructure2][3]
     -   [Parameters][4]
     -   [Examples][5]
 -   [multiply][6]
@@ -11625,7 +11708,7 @@ have any parameter descriptions.
     -   \`$0.emailAddresses\`   (optional, default \`[]\`)
     -   \`$0.params\` **...any** 
 
-## destructure
+## destructure2
 
 Similar, but with an array
 
@@ -11640,7 +11723,7 @@ Similar, but with an array
 ### Examples
 
 \`\`\`javascript
-destructure([0, 1, 2, 3])
+destructure2([0, 1, 2, 3])
 \`\`\`
 
 ## multiply
@@ -11789,7 +11872,7 @@ babel parser plugins
 
 [2]: #parameters
 
-[3]: #destructure-1
+[3]: #destructure2
 
 [4]: #parameters-1
 
@@ -12120,7 +12203,7 @@ have any parameter descriptions.",
       "children": Array [
         Object {
           "type": "text",
-          "value": "destructure",
+          "value": "destructure2",
         },
       ],
       "depth": 2,
@@ -12322,7 +12405,7 @@ have any parameter descriptions.",
     Object {
       "lang": "javascript",
       "type": "code",
-      "value": "destructure([0, 1, 2, 3])",
+      "value": "destructure2([0, 1, 2, 3])",
     },
     Object {
       "children": Array [
@@ -18891,8 +18974,319 @@ Object {
 }
 `;
 
+exports[`outputs flow-exported-opaque-type.input.js JSON 1`] = `
+Array [
+  Object {
+    "augments": Array [],
+    "context": Object {
+      "loc": Object {
+        "end": Object {
+          "column": 48,
+          "line": 4,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 4,
+        },
+      },
+    },
+    "description": Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "position": Object {
+                "end": Object {
+                  "column": 30,
+                  "line": 1,
+                  "offset": 29,
+                },
+                "indent": Array [],
+                "start": Object {
+                  "column": 1,
+                  "line": 1,
+                  "offset": 0,
+                },
+              },
+              "type": "text",
+              "value": "MyOpaqueType Description Here",
+            },
+          ],
+          "position": Object {
+            "end": Object {
+              "column": 30,
+              "line": 1,
+              "offset": 29,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 1,
+              "line": 1,
+              "offset": 0,
+            },
+          },
+          "type": "paragraph",
+        },
+      ],
+      "position": Object {
+        "end": Object {
+          "column": 30,
+          "line": 1,
+          "offset": 29,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "root",
+    },
+    "errors": Array [],
+    "examples": Array [],
+    "implements": Array [],
+    "loc": Object {
+      "end": Object {
+        "column": 36,
+        "line": 3,
+      },
+      "start": Object {
+        "column": 0,
+        "line": 3,
+      },
+    },
+    "members": Object {
+      "events": Array [],
+      "global": Array [],
+      "inner": Array [],
+      "instance": Array [],
+      "static": Array [],
+    },
+    "name": "MyOpaqueType",
+    "namespace": "MyOpaqueType",
+    "params": Array [],
+    "path": Array [
+      Object {
+        "name": "MyOpaqueType",
+      },
+    ],
+    "properties": Array [],
+    "returns": Array [],
+    "sees": Array [],
+    "tags": Array [],
+    "throws": Array [],
+    "todos": Array [],
+    "yields": Array [],
+  },
+]
+`;
+
+exports[`outputs flow-exported-opaque-type.input.js markdown 1`] = `
+"<!-- Generated by documentation.js. Update this documentation by updating the source code. -->
+
+### Table of Contents
+
+-   [MyOpaqueType][1]
+
+## MyOpaqueType
+
+MyOpaqueType Description Here
+
+[1]: #myopaquetype
+"
+`;
+
+exports[`outputs flow-exported-opaque-type.input.js markdown AST 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "type": "html",
+      "value": "<!-- Generated by documentation.js. Update this documentation by updating the source code. -->",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "type": "text",
+          "value": "MyOpaqueType",
+        },
+      ],
+      "depth": 2,
+      "type": "heading",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "position": Position {
+            "end": Object {
+              "column": 30,
+              "line": 1,
+              "offset": 29,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 1,
+              "line": 1,
+              "offset": 0,
+            },
+          },
+          "type": "text",
+          "value": "MyOpaqueType Description Here",
+        },
+      ],
+      "position": Position {
+        "end": Object {
+          "column": 30,
+          "line": 1,
+          "offset": 29,
+        },
+        "indent": Array [],
+        "start": Object {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "paragraph",
+    },
+  ],
+  "type": "root",
+}
+`;
+
 exports[`outputs flow-optional-chaining.input.js JSON 1`] = `
 Array [
+  Object {
+    "augments": Array [],
+    "context": Object {
+      "loc": Object {
+        "end": Object {
+          "column": 74,
+          "line": 4,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 4,
+        },
+      },
+    },
+    "description": Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "position": Object {
+                "end": Object {
+                  "column": 4,
+                  "line": 1,
+                  "offset": 3,
+                },
+                "indent": Array [],
+                "start": Object {
+                  "column": 1,
+                  "line": 1,
+                  "offset": 0,
+                },
+              },
+              "type": "text",
+              "value": "foo",
+            },
+          ],
+          "position": Object {
+            "end": Object {
+              "column": 4,
+              "line": 1,
+              "offset": 3,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 1,
+              "line": 1,
+              "offset": 0,
+            },
+          },
+          "type": "paragraph",
+        },
+      ],
+      "position": Object {
+        "end": Object {
+          "column": 4,
+          "line": 1,
+          "offset": 3,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "root",
+    },
+    "errors": Array [],
+    "examples": Array [],
+    "implements": Array [],
+    "kind": "constant",
+    "loc": Object {
+      "end": Object {
+        "column": 10,
+        "line": 3,
+      },
+      "start": Object {
+        "column": 0,
+        "line": 3,
+      },
+    },
+    "members": Object {
+      "events": Array [],
+      "global": Array [],
+      "inner": Array [],
+      "instance": Array [],
+      "static": Array [],
+    },
+    "name": "foo",
+    "namespace": "foo",
+    "params": Array [],
+    "path": Array [
+      Object {
+        "kind": "constant",
+        "name": "foo",
+      },
+    ],
+    "properties": Array [],
+    "returns": Array [],
+    "sees": Array [],
+    "tags": Array [],
+    "throws": Array [],
+    "todos": Array [],
+    "type": Object {
+      "fields": Array [
+        Object {
+          "key": "prop1",
+          "type": "FieldType",
+          "value": Object {
+            "expression": Object {
+              "fields": Array [
+                Object {
+                  "key": "prop2",
+                  "type": "FieldType",
+                  "value": Object {
+                    "expression": Object {
+                      "name": "string",
+                      "type": "NameExpression",
+                    },
+                    "type": "OptionalType",
+                  },
+                },
+              ],
+              "type": "RecordType",
+            },
+            "type": "OptionalType",
+          },
+        },
+      ],
+      "type": "RecordType",
+    },
+    "yields": Array [],
+  },
   Object {
     "augments": Array [],
     "context": Object {
@@ -19005,13 +19399,24 @@ exports[`outputs flow-optional-chaining.input.js markdown 1`] = `
 
 ### Table of Contents
 
--   [value][1]
+-   [foo][1]
+-   [value][2]
+
+## foo
+
+foo
+
+Type: {prop1: {prop2: [string][3]?}?}
 
 ## value
 
 value
 
-[1]: #value
+[1]: #foo
+
+[2]: #value
+
+[3]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
 "
 `;
 
@@ -19021,6 +19426,103 @@ Object {
     Object {
       "type": "html",
       "value": "<!-- Generated by documentation.js. Update this documentation by updating the source code. -->",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "type": "text",
+          "value": "foo",
+        },
+      ],
+      "depth": 2,
+      "type": "heading",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "position": Position {
+            "end": Object {
+              "column": 4,
+              "line": 1,
+              "offset": 3,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 1,
+              "line": 1,
+              "offset": 0,
+            },
+          },
+          "type": "text",
+          "value": "foo",
+        },
+      ],
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 1,
+          "offset": 3,
+        },
+        "indent": Array [],
+        "start": Object {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "type": "text",
+          "value": "Type: ",
+        },
+        Object {
+          "type": "text",
+          "value": "{",
+        },
+        Object {
+          "type": "text",
+          "value": "prop1: ",
+        },
+        Object {
+          "type": "text",
+          "value": "{",
+        },
+        Object {
+          "type": "text",
+          "value": "prop2: ",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "type": "text",
+              "value": "string",
+            },
+          ],
+          "identifier": "1",
+          "referenceType": "full",
+          "type": "linkReference",
+        },
+        Object {
+          "type": "text",
+          "value": "?",
+        },
+        Object {
+          "type": "text",
+          "value": "}",
+        },
+        Object {
+          "type": "text",
+          "value": "?",
+        },
+        Object {
+          "type": "text",
+          "value": "}",
+        },
+      ],
+      "type": "paragraph",
     },
     Object {
       "children": Array [
@@ -19067,6 +19569,12 @@ Object {
       },
       "type": "paragraph",
     },
+    Object {
+      "identifier": "1",
+      "title": undefined,
+      "type": "definition",
+      "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String",
+    },
   ],
   "type": "root",
 }
@@ -19074,6 +19582,125 @@ Object {
 
 exports[`outputs flow-unnamed-params.input.js JSON 1`] = `
 Array [
+  Object {
+    "augments": Array [],
+    "context": Object {
+      "loc": Object {
+        "end": Object {
+          "column": 19,
+          "line": 4,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 4,
+        },
+      },
+    },
+    "description": Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "position": Object {
+                "end": Object {
+                  "column": 2,
+                  "line": 1,
+                  "offset": 1,
+                },
+                "indent": Array [],
+                "start": Object {
+                  "column": 1,
+                  "line": 1,
+                  "offset": 0,
+                },
+              },
+              "type": "text",
+              "value": "x",
+            },
+          ],
+          "position": Object {
+            "end": Object {
+              "column": 2,
+              "line": 1,
+              "offset": 1,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 1,
+              "line": 1,
+              "offset": 0,
+            },
+          },
+          "type": "paragraph",
+        },
+      ],
+      "position": Object {
+        "end": Object {
+          "column": 2,
+          "line": 1,
+          "offset": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "root",
+    },
+    "errors": Array [],
+    "examples": Array [],
+    "implements": Array [],
+    "loc": Object {
+      "end": Object {
+        "column": 8,
+        "line": 3,
+      },
+      "start": Object {
+        "column": 0,
+        "line": 3,
+      },
+    },
+    "members": Object {
+      "events": Array [],
+      "global": Array [],
+      "inner": Array [],
+      "instance": Array [],
+      "static": Array [],
+    },
+    "name": "x",
+    "namespace": "x",
+    "params": Array [],
+    "path": Array [
+      Object {
+        "name": "x",
+      },
+    ],
+    "properties": Array [],
+    "returns": Array [],
+    "sees": Array [],
+    "tags": Array [],
+    "throws": Array [],
+    "todos": Array [],
+    "type": Object {
+      "params": Array [
+        Object {
+          "expression": Object {
+            "name": "T",
+            "type": "NameExpression",
+          },
+          "name": "",
+          "type": "ParameterType",
+        },
+      ],
+      "result": Object {
+        "name": "string",
+        "type": "NameExpression",
+      },
+      "type": "FunctionType",
+    },
+    "yields": Array [],
+  },
   Object {
     "augments": Array [],
     "context": Object {
@@ -19609,50 +20236,59 @@ exports[`outputs flow-unnamed-params.input.js markdown 1`] = `
 
 ### Table of Contents
 
--   [x2][1]
--   [T][2]
--   [T2][3]
--   [T3][4]
+-   [x][1]
+-   [x2][2]
+-   [T][3]
+-   [T2][4]
+-   [T3][5]
+
+## x
+
+x
+
+Type: function ([T][6]): [string][7]
 
 ## x2
 
 x2
 
-Type: function (a: [T][5]): [string][6]
+Type: function (a: [T][6]): [string][7]
 
 ## T
 
 T
 
-Type: function ([Array][7]&lt;[string][6]>): {num: [number][8]}
+Type: function ([Array][8]&lt;[string][7]>): {num: [number][9]}
 
 ## T2
 
 T2
 
-Type: function (a: [Array][7]&lt;[string][6]>): {num: [number][8]}
+Type: function (a: [Array][8]&lt;[string][7]>): {num: [number][9]}
 
 ## T3
 
 T3
 
-Type: function (a: [string][6]): {num: [number][8]}
+Type: function (a: [string][7]): {num: [number][9]}
 
-[1]: #x2
+[1]: #x
 
-[2]: #t
+[2]: #x2
 
-[3]: #t2
+[3]: #t
 
-[4]: #t3
+[4]: #t2
 
-[5]: #t
+[5]: #t3
 
-[6]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
+[6]: #t
 
-[7]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array
+[7]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
 
-[8]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
+[8]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+[9]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
 "
 `;
 
@@ -19662,6 +20298,94 @@ Object {
     Object {
       "type": "html",
       "value": "<!-- Generated by documentation.js. Update this documentation by updating the source code. -->",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "type": "text",
+          "value": "x",
+        },
+      ],
+      "depth": 2,
+      "type": "heading",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "position": Position {
+            "end": Object {
+              "column": 2,
+              "line": 1,
+              "offset": 1,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 1,
+              "line": 1,
+              "offset": 0,
+            },
+          },
+          "type": "text",
+          "value": "x",
+        },
+      ],
+      "position": Position {
+        "end": Object {
+          "column": 2,
+          "line": 1,
+          "offset": 1,
+        },
+        "indent": Array [],
+        "start": Object {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "type": "text",
+          "value": "Type: ",
+        },
+        Object {
+          "type": "text",
+          "value": "function (",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "type": "text",
+              "value": "T",
+            },
+          ],
+          "identifier": "1",
+          "referenceType": "full",
+          "type": "linkReference",
+        },
+        Object {
+          "type": "text",
+          "value": ")",
+        },
+        Object {
+          "type": "text",
+          "value": ": ",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "type": "text",
+              "value": "string",
+            },
+          ],
+          "identifier": "2",
+          "referenceType": "full",
+          "type": "linkReference",
+        },
+      ],
+      "type": "paragraph",
     },
     Object {
       "children": Array [
@@ -26251,11 +26975,11 @@ Array [
       "loc": Object {
         "end": Object {
           "column": 2,
-          "line": 16,
+          "line": 14,
         },
         "start": Object {
           "column": 0,
-          "line": 13,
+          "line": 11,
         },
       },
     },
@@ -26371,7 +27095,7 @@ Array [
     "loc": Object {
       "end": Object {
         "column": 3,
-        "line": 12,
+        "line": 10,
       },
       "start": Object {
         "column": 0,
@@ -26458,188 +27182,79 @@ Array [
     ],
     "sees": Array [
       Object {
-        "children": Array [
-          Object {
-            "children": Array [
-              Object {
-                "children": Array [
-                  Object {
-                    "type": "text",
-                    "value": "github",
-                  },
-                ],
-                "jsdoc": true,
-                "position": Object {
-                  "end": Object {
-                    "column": 34,
-                    "line": 1,
-                    "offset": 33,
-                  },
-                  "indent": Array [],
-                  "start": Object {
-                    "column": 1,
-                    "line": 1,
-                    "offset": 0,
-                  },
-                },
-                "title": null,
-                "type": "link",
-                "url": "http://github.com/",
-              },
-            ],
-            "position": Object {
-              "end": Object {
-                "column": 34,
-                "line": 1,
-                "offset": 33,
-              },
-              "indent": Array [],
-              "start": Object {
-                "column": 1,
-                "line": 1,
-                "offset": 0,
-              },
-            },
-            "type": "paragraph",
-          },
-        ],
-        "position": Object {
-          "end": Object {
-            "column": 34,
-            "line": 1,
-            "offset": 33,
-          },
-          "start": Object {
-            "column": 1,
-            "line": 1,
-            "offset": 0,
-          },
-        },
-        "type": "root",
-      },
-      Object {
-        "children": Array [
-          Object {
-            "children": Array [
-              Object {
-                "position": Object {
-                  "end": Object {
-                    "column": 9,
-                    "line": 1,
-                    "offset": 8,
-                  },
-                  "indent": Array [],
-                  "start": Object {
-                    "column": 1,
-                    "line": 1,
-                    "offset": 0,
-                  },
-                },
-                "type": "text",
-                "value": "TestCase",
-              },
-            ],
-            "position": Object {
-              "end": Object {
-                "column": 9,
-                "line": 1,
-                "offset": 8,
-              },
-              "indent": Array [],
-              "start": Object {
-                "column": 1,
-                "line": 1,
-                "offset": 0,
-              },
-            },
-            "type": "paragraph",
-          },
-        ],
-        "position": Object {
-          "end": Object {
-            "column": 9,
-            "line": 1,
-            "offset": 8,
-          },
-          "start": Object {
-            "column": 1,
-            "line": 1,
-            "offset": 0,
-          },
-        },
-        "type": "root",
-      },
-      Object {
-        "children": Array [
-          Object {
-            "children": Array [
-              Object {
-                "children": Array [
-                  Object {
-                    "position": Object {
-                      "end": Object {
-                        "column": 15,
-                        "line": 1,
-                        "offset": 14,
+        "description": Object {
+          "children": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "position": Object {
+                        "end": Object {
+                          "column": 15,
+                          "line": 1,
+                          "offset": 14,
+                        },
+                        "indent": Array [],
+                        "start": Object {
+                          "column": 2,
+                          "line": 1,
+                          "offset": 1,
+                        },
                       },
-                      "indent": Array [],
-                      "start": Object {
-                        "column": 2,
-                        "line": 1,
-                        "offset": 1,
-                      },
+                      "type": "text",
+                      "value": "markdown link",
                     },
-                    "type": "text",
-                    "value": "markdown link",
+                  ],
+                  "position": Object {
+                    "end": Object {
+                      "column": 33,
+                      "line": 1,
+                      "offset": 32,
+                    },
+                    "indent": Array [],
+                    "start": Object {
+                      "column": 1,
+                      "line": 1,
+                      "offset": 0,
+                    },
                   },
-                ],
-                "position": Object {
-                  "end": Object {
-                    "column": 33,
-                    "line": 1,
-                    "offset": 32,
-                  },
-                  "indent": Array [],
-                  "start": Object {
-                    "column": 1,
-                    "line": 1,
-                    "offset": 0,
-                  },
+                  "title": null,
+                  "type": "link",
+                  "url": "http://foo.com/",
                 },
-                "title": null,
-                "type": "link",
-                "url": "http://foo.com/",
+              ],
+              "position": Object {
+                "end": Object {
+                  "column": 33,
+                  "line": 1,
+                  "offset": 32,
+                },
+                "indent": Array [],
+                "start": Object {
+                  "column": 1,
+                  "line": 1,
+                  "offset": 0,
+                },
               },
-            ],
-            "position": Object {
-              "end": Object {
-                "column": 33,
-                "line": 1,
-                "offset": 32,
-              },
-              "indent": Array [],
-              "start": Object {
-                "column": 1,
-                "line": 1,
-                "offset": 0,
-              },
+              "type": "paragraph",
             },
-            "type": "paragraph",
+          ],
+          "position": Object {
+            "end": Object {
+              "column": 33,
+              "line": 1,
+              "offset": 32,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+              "offset": 0,
+            },
           },
-        ],
-        "position": Object {
-          "end": Object {
-            "column": 33,
-            "line": 1,
-            "offset": 32,
-          },
-          "start": Object {
-            "column": 1,
-            "line": 1,
-            "offset": 0,
-          },
+          "type": "root",
         },
-        "type": "root",
+        "title": "sees",
       },
     ],
     "since": "2.0.0",
@@ -26659,38 +27274,28 @@ Array [
         "title": "description",
       },
       Object {
-        "description": "{@link http://github.com/|github}",
+        "description": "[markdown link](http://foo.com/)",
         "lineNumber": 4,
         "title": "see",
       },
       Object {
-        "description": "TestCase",
-        "lineNumber": 5,
-        "title": "see",
-      },
-      Object {
-        "description": "[markdown link](http://foo.com/)",
-        "lineNumber": 6,
-        "title": "see",
-      },
-      Object {
         "description": "1.0.0",
-        "lineNumber": 7,
+        "lineNumber": 5,
         "title": "version",
       },
       Object {
         "description": "2.0.0",
-        "lineNumber": 8,
+        "lineNumber": 6,
         "title": "since",
       },
       Object {
         "description": "Tom MacWright",
-        "lineNumber": 9,
+        "lineNumber": 7,
         "title": "copyright",
       },
       Object {
         "description": "BSD",
-        "lineNumber": 10,
+        "lineNumber": 8,
         "title": "license",
       },
     ],
@@ -26711,13 +27316,12 @@ exports[`outputs meta.input.js markdown 1`] = `
 
 ## meta.input
 
--   **See: [github][2]**
--   **See: TestCase**
--   **See: [markdown link][3]**
+-   **See: [markdown link][2]
+    **
 
 This function returns the number one.
 
-Returns **[number][4]** numberone
+Returns **[number][3]** numberone
 
 **Meta**
 
@@ -26729,11 +27333,9 @@ Returns **[number][4]** numberone
 
 [1]: #metainput
 
-[2]: http://github.com/
+[2]: http://foo.com/
 
-[3]: http://foo.com/
-
-[4]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
+[3]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
 "
 `;
 
@@ -26769,52 +27371,35 @@ Object {
                     Object {
                       "children": Array [
                         Object {
-                          "type": "text",
-                          "value": "github",
+                          "children": Array [
+                            Object {
+                              "position": Position {
+                                "end": Object {
+                                  "column": 15,
+                                  "line": 1,
+                                  "offset": 14,
+                                },
+                                "indent": Array [],
+                                "start": Object {
+                                  "column": 2,
+                                  "line": 1,
+                                  "offset": 1,
+                                },
+                              },
+                              "type": "text",
+                              "value": "markdown link",
+                            },
+                          ],
+                          "identifier": "1",
+                          "referenceType": "full",
+                          "type": "linkReference",
                         },
                       ],
-                      "identifier": "1",
-                      "referenceType": "full",
-                      "type": "linkReference",
-                    },
-                  ],
-                  "position": Position {
-                    "end": Object {
-                      "column": 34,
-                      "line": 1,
-                      "offset": 33,
-                    },
-                    "indent": Array [],
-                    "start": Object {
-                      "column": 1,
-                      "line": 1,
-                      "offset": 0,
-                    },
-                  },
-                  "type": "paragraph",
-                },
-              ],
-              "type": "strong",
-            },
-          ],
-          "type": "listItem",
-        },
-        Object {
-          "children": Array [
-            Object {
-              "children": Array [
-                Object {
-                  "type": "text",
-                  "value": "See: ",
-                },
-                Object {
-                  "children": Array [
-                    Object {
                       "position": Position {
                         "end": Object {
-                          "column": 9,
+                          "column": 33,
                           "line": 1,
-                          "offset": 8,
+                          "offset": 32,
                         },
                         "indent": Array [],
                         "start": Object {
@@ -26823,80 +27408,22 @@ Object {
                           "offset": 0,
                         },
                       },
-                      "type": "text",
-                      "value": "TestCase",
+                      "type": "paragraph",
                     },
                   ],
-                  "position": Position {
-                    "end": Object {
-                      "column": 9,
-                      "line": 1,
-                      "offset": 8,
-                    },
-                    "indent": Array [],
-                    "start": Object {
-                      "column": 1,
-                      "line": 1,
-                      "offset": 0,
-                    },
-                  },
-                  "type": "paragraph",
-                },
-              ],
-              "type": "strong",
-            },
-          ],
-          "type": "listItem",
-        },
-        Object {
-          "children": Array [
-            Object {
-              "children": Array [
-                Object {
-                  "type": "text",
-                  "value": "See: ",
-                },
-                Object {
-                  "children": Array [
-                    Object {
-                      "children": Array [
-                        Object {
-                          "position": Position {
-                            "end": Object {
-                              "column": 15,
-                              "line": 1,
-                              "offset": 14,
-                            },
-                            "indent": Array [],
-                            "start": Object {
-                              "column": 2,
-                              "line": 1,
-                              "offset": 1,
-                            },
-                          },
-                          "type": "text",
-                          "value": "markdown link",
-                        },
-                      ],
-                      "identifier": "2",
-                      "referenceType": "full",
-                      "type": "linkReference",
-                    },
-                  ],
-                  "position": Position {
+                  "position": Object {
                     "end": Object {
                       "column": 33,
                       "line": 1,
                       "offset": 32,
                     },
-                    "indent": Array [],
                     "start": Object {
                       "column": 1,
                       "line": 1,
                       "offset": 0,
                     },
                   },
-                  "type": "paragraph",
+                  "type": "root",
                 },
               ],
               "type": "strong",
@@ -26958,7 +27485,7 @@ Object {
                   "value": "number",
                 },
               ],
-              "identifier": "3",
+              "identifier": "2",
               "referenceType": "full",
               "type": "linkReference",
             },
@@ -27182,16 +27709,10 @@ Object {
       "identifier": "1",
       "title": null,
       "type": "definition",
-      "url": "http://github.com/",
-    },
-    Object {
-      "identifier": "2",
-      "title": null,
-      "type": "definition",
       "url": "http://foo.com/",
     },
     Object {
-      "identifier": "3",
+      "identifier": "2",
       "title": undefined,
       "type": "definition",
       "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number",
@@ -29136,6 +29657,368 @@ Object {
       "title": undefined,
       "type": "definition",
       "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    },
+  ],
+  "type": "root",
+}
+`;
+
+exports[`outputs nest_events.input.js JSON 1`] = `
+Array [
+  Object {
+    "augments": Array [],
+    "context": Object {
+      "loc": Object {
+        "end": Object {
+          "column": 6,
+          "line": 13,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 13,
+        },
+      },
+    },
+    "description": Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "position": Object {
+                "end": Object {
+                  "column": 18,
+                  "line": 1,
+                  "offset": 17,
+                },
+                "indent": Array [],
+                "start": Object {
+                  "column": 1,
+                  "line": 1,
+                  "offset": 0,
+                },
+              },
+              "type": "text",
+              "value": "Klass description",
+            },
+          ],
+          "position": Object {
+            "end": Object {
+              "column": 18,
+              "line": 1,
+              "offset": 17,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 1,
+              "line": 1,
+              "offset": 0,
+            },
+          },
+          "type": "paragraph",
+        },
+      ],
+      "position": Object {
+        "end": Object {
+          "column": 18,
+          "line": 1,
+          "offset": 17,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "root",
+    },
+    "errors": Array [],
+    "examples": Array [],
+    "implements": Array [],
+    "kind": "class",
+    "loc": Object {
+      "end": Object {
+        "column": 3,
+        "line": 5,
+      },
+      "start": Object {
+        "column": 0,
+        "line": 1,
+      },
+    },
+    "members": Object {
+      "events": Array [
+        Object {
+          "augments": Array [],
+          "context": Object {
+            "loc": Object {
+              "end": Object {
+                "column": 6,
+                "line": 13,
+              },
+              "start": Object {
+                "column": 0,
+                "line": 13,
+              },
+            },
+          },
+          "description": Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "position": Object {
+                      "end": Object {
+                        "column": 12,
+                        "line": 1,
+                        "offset": 11,
+                      },
+                      "indent": Array [],
+                      "start": Object {
+                        "column": 1,
+                        "line": 1,
+                        "offset": 0,
+                      },
+                    },
+                    "type": "text",
+                    "value": "Klass event",
+                  },
+                ],
+                "position": Object {
+                  "end": Object {
+                    "column": 12,
+                    "line": 1,
+                    "offset": 11,
+                  },
+                  "indent": Array [],
+                  "start": Object {
+                    "column": 1,
+                    "line": 1,
+                    "offset": 0,
+                  },
+                },
+                "type": "paragraph",
+              },
+            ],
+            "position": Object {
+              "end": Object {
+                "column": 12,
+                "line": 1,
+                "offset": 11,
+              },
+              "start": Object {
+                "column": 1,
+                "line": 1,
+                "offset": 0,
+              },
+            },
+            "type": "root",
+          },
+          "errors": Array [],
+          "examples": Array [],
+          "implements": Array [],
+          "kind": "event",
+          "loc": Object {
+            "end": Object {
+              "column": 3,
+              "line": 12,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 8,
+            },
+          },
+          "memberof": "Klass",
+          "members": Object {
+            "events": Array [],
+            "global": Array [],
+            "inner": Array [],
+            "instance": Array [],
+            "static": Array [],
+          },
+          "name": "bar",
+          "namespace": "Klass.event:bar",
+          "params": Array [],
+          "path": Array [
+            Object {
+              "kind": "class",
+              "name": "Klass",
+            },
+            Object {
+              "kind": "event",
+              "name": "bar",
+            },
+          ],
+          "properties": Array [],
+          "returns": Array [],
+          "sees": Array [],
+          "tags": Array [
+            Object {
+              "description": "bar",
+              "lineNumber": 2,
+              "title": "event",
+            },
+            Object {
+              "description": "Klass",
+              "lineNumber": 3,
+              "title": "memberof",
+            },
+          ],
+          "throws": Array [],
+          "todos": Array [],
+          "yields": Array [],
+        },
+      ],
+      "global": Array [],
+      "inner": Array [],
+      "instance": Array [],
+      "static": Array [],
+    },
+    "name": "Klass",
+    "namespace": "Klass",
+    "params": Array [],
+    "path": Array [
+      Object {
+        "kind": "class",
+        "name": "Klass",
+      },
+    ],
+    "properties": Array [],
+    "returns": Array [],
+    "sees": Array [],
+    "tags": Array [
+      Object {
+        "description": null,
+        "lineNumber": 3,
+        "name": "Klass",
+        "title": "class",
+        "type": null,
+      },
+    ],
+    "throws": Array [],
+    "todos": Array [],
+    "yields": Array [],
+  },
+]
+`;
+
+exports[`outputs nest_events.input.js markdown 1`] = `
+"<!-- Generated by documentation.js. Update this documentation by updating the source code. -->
+
+### Table of Contents
+
+-   [Klass][1]
+    -   [bar][2]
+
+## Klass
+
+Klass description
+
+### bar
+
+Klass event
+
+[1]: #klass
+
+[2]: #bar
+"
+`;
+
+exports[`outputs nest_events.input.js markdown AST 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "type": "html",
+      "value": "<!-- Generated by documentation.js. Update this documentation by updating the source code. -->",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "type": "text",
+          "value": "Klass",
+        },
+      ],
+      "depth": 2,
+      "type": "heading",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "position": Position {
+            "end": Object {
+              "column": 18,
+              "line": 1,
+              "offset": 17,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 1,
+              "line": 1,
+              "offset": 0,
+            },
+          },
+          "type": "text",
+          "value": "Klass description",
+        },
+      ],
+      "position": Position {
+        "end": Object {
+          "column": 18,
+          "line": 1,
+          "offset": 17,
+        },
+        "indent": Array [],
+        "start": Object {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "type": "text",
+          "value": "bar",
+        },
+      ],
+      "depth": 3,
+      "type": "heading",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "position": Position {
+            "end": Object {
+              "column": 12,
+              "line": 1,
+              "offset": 11,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 1,
+              "line": 1,
+              "offset": 0,
+            },
+          },
+          "type": "text",
+          "value": "Klass event",
+        },
+      ],
+      "position": Position {
+        "end": Object {
+          "column": 12,
+          "line": 1,
+          "offset": 11,
+        },
+        "indent": Array [],
+        "start": Object {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "paragraph",
     },
   ],
   "type": "root",
@@ -31674,30 +32557,6 @@ Array [
     "tags": Array [],
     "throws": Array [],
     "todos": Array [],
-    "type": Object {
-      "fields": Array [
-        Object {
-          "key": "opt",
-          "type": "FieldType",
-          "value": Object {
-            "expression": Object {
-              "name": "number",
-              "type": "NameExpression",
-            },
-            "type": "OptionalType",
-          },
-        },
-        Object {
-          "key": "req",
-          "type": "FieldType",
-          "value": Object {
-            "name": "string",
-            "type": "NameExpression",
-          },
-        },
-      ],
-      "type": "RecordType",
-    },
     "yields": Array [],
   },
 ]
@@ -31712,8 +32571,6 @@ exports[`outputs optional-record-field-type.input.js markdown 1`] = `
     -   [Properties][2]
 
 ## Record
-
-Type: {opt: [number][3]?, req: [string][4]}
 
 ### Properties
 
@@ -31746,61 +32603,6 @@ Object {
       ],
       "depth": 2,
       "type": "heading",
-    },
-    Object {
-      "children": Array [
-        Object {
-          "type": "text",
-          "value": "Type: ",
-        },
-        Object {
-          "type": "text",
-          "value": "{",
-        },
-        Object {
-          "type": "text",
-          "value": "opt: ",
-        },
-        Object {
-          "children": Array [
-            Object {
-              "type": "text",
-              "value": "number",
-            },
-          ],
-          "identifier": "1",
-          "referenceType": "full",
-          "type": "linkReference",
-        },
-        Object {
-          "type": "text",
-          "value": "?",
-        },
-        Object {
-          "type": "text",
-          "value": ", ",
-        },
-        Object {
-          "type": "text",
-          "value": "req: ",
-        },
-        Object {
-          "children": Array [
-            Object {
-              "type": "text",
-              "value": "string",
-            },
-          ],
-          "identifier": "2",
-          "referenceType": "full",
-          "type": "linkReference",
-        },
-        Object {
-          "type": "text",
-          "value": "}",
-        },
-      ],
-      "type": "paragraph",
     },
     Object {
       "children": Array [

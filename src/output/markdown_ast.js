@@ -241,7 +241,7 @@ function buildMarkdownAST(comments, config) {
           { ordered: false },
           comment.sees.map(see =>
             u('listItem', [
-              u('strong', [u('text', 'See: ')].concat(see.children))
+              u('strong', [u('text', 'See: ')].concat(see.description))
             ])
           )
         )
@@ -358,6 +358,13 @@ function buildMarkdownAST(comments, config) {
       .concat(
         !!comment.members.inner.length &&
           comment.members.inner.reduce(
+            (memo, child) => memo.concat(generate(depth + 1, child)),
+            []
+          )
+      )
+      .concat(
+        !!comment.members.events.length &&
+          comment.members.events.reduce(
             (memo, child) => memo.concat(generate(depth + 1, child)),
             []
           )

@@ -119,7 +119,7 @@ describe('outputs', function() {
   glob
     .sync(path.join(__dirname, 'fixture', '*.input.js'))
     .forEach(function(file) {
-      describe(path.basename(file), async function() {
+      describe(path.basename(file), function() {
         let result = null;
         beforeEach(async function() {
           result = await documentation.build([file], readOptionsFromFile(file));
