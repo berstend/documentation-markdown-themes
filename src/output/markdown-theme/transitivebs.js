@@ -217,7 +217,7 @@ module.exports = function buildMarkdownAST(comments, config, util) {
         comment.examples.length > 0 &&
         // [u('heading', { depth: depth + 1 }, [u('text', 'Examples')])].concat(
         [u('text', isSingle ? 'Example:' : 'Examples:')].concat(
-          comment.examples.reduce(function(memo, example) {
+          comment.examples.reduce(function (memo, example) {
             const language = hljsOptions.highlightAuto
               ? hljs.highlightAuto(example.description).language
               : DEFAULT_LANGUAGE;
@@ -317,7 +317,7 @@ module.exports = function buildMarkdownAST(comments, config, util) {
           { ordered: false },
           comment.sees.map(see =>
             u('listItem', [
-              u('strong', [u('text', 'See: ')].concat(see.children))
+              u('strong', [u('text', 'See: ')].concat(see.description.children))
             ])
           )
         )
@@ -468,6 +468,13 @@ module.exports = function buildMarkdownAST(comments, config, util) {
         .concat(
           !!comment.members.inner.length &&
             comment.members.inner.reduce(
+              (memo, child) => memo.concat(generate(depth + 1, child)),
+              []
+            )
+        )
+        .concat(
+          !!comment.members.events.length &&
+            comment.members.events.reduce(
               (memo, child) => memo.concat(generate(depth + 1, child)),
               []
             )
